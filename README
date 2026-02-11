@@ -8,7 +8,7 @@ This project collection showcases in-depth exploratory data analysis techniques 
 
 ## Project Structure
 
-```
+```text
 EDAs/
 ├── README
 └── [Multiple EDA projects with Jupyter notebooks and datasets]
@@ -34,6 +34,7 @@ EDAs/
 ## Dataset Characteristics
 
 Each analysis includes:
+
 - **Raw datasets**: Original data files before processing
 - **Processed datasets**: Cleaned and structured data for analysis
 - **Encoded features**: Encoded categorical variables where applicable
@@ -50,16 +51,19 @@ Each analysis includes:
 ## Getting Started
 
 ### Requirements
+
 - Python 3.7+
 - Jupyter Notebook or JupyterLab
 - Required packages: pandas, numpy, matplotlib, seaborn, scikit-learn
 
 ### Installation
+
 ```bash
 pip install jupyter pandas numpy matplotlib seaborn scikit-learn
 ```
 
 ### Running an Analysis
+
 ```bash
 jupyter notebook
 # Navigate to the desired project and open the .ipynb file
@@ -68,6 +72,7 @@ jupyter notebook
 ## Data Analysis Workflow
 
 Each EDA typically follows this structure:
+
 1. **Data Loading**: Import and initial inspection
 2. **Data Cleaning**: Handle missing values, duplicates, and anomalies
 3. **Exploratory Visualization**: Create charts and plots
@@ -85,6 +90,7 @@ Each EDA typically follows this structure:
 ## Contributing
 
 To add new analyses or improve existing ones:
+
 1. Create a new project folder with appropriate naming
 2. Include both raw and processed datasets
 3. Document analysis methodology in the notebook
